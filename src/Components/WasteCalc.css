@@ -1,0 +1,91 @@
+/* Default styles for larger screens */
+.WasteContainer {
+    background-color: #8CB27F;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    min-height: 300px;
+    /* margin: -35px 0 10px 10px;  */
+    text-align: center;
+    color: white; /* Text color */
+  }
+  
+  .waste-header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .waste-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form content horizontally */
+  }
+  
+  .waste-form h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .waste-form input[type="number"] {
+    width: 90%;
+    padding: 4% 5% 4% 5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .waste-form button {
+    background-color: #55725D; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .waste-form button:hover {
+    background-color: #405A4E; /* Hover background color */
+  }
+  
+  .waste-results {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #405A4E;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: #FFF; /* Text color for results */
+  }
+  
+  .waste-results h3 {
+    font-size: 20px;
+    margin-top: 1rem;
+
+  }
+  
+  .waste-results p {
+    font-size: 18px;
+    color: #FFF;
+    font-weight: bold;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .WasteContainer {
+      margin: 20px auto; /* Center the container horizontally on smaller screens */
+    }
+  
+    .waste-form {
+      padding: 0 20px; /* Add some horizontal padding for better spacing */
+    }
+  }
+  

@@ -1,0 +1,146 @@
+footer {
+    /* font-weight: 500; */
+    color: white;
+    background-color: #55725D;
+    top: 100%;
+    padding: 5rem 0;
+}
+
+.footer-all-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-mid {
+    border-left: 3px solid white;
+    border-radius: 5px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+
+}
+
+.about-left {
+    width: 50%;
+    text-align: right;
+    /* border: red 1px solid; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.about-right {
+    align-items: start;
+    /* border: red 1px solid; */
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about-left-text {
+    width: 80%;
+    padding-right: 3rem;
+    /* background-color: cyan; */
+}   
+
+.about-left-text h1 {
+    color: wheat;
+    font-size: 4rem;
+}   
+
+.about-left-text p {
+    font-size: 1.3rem;
+}
+
+.contacts-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5rem;
+}
+
+.left-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.left-container h1 {
+    font-size: 7rem;
+    color: #FCF5E5;
+    text-align: right;
+}
+
+.right-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.from-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+
+.name-container label {
+    display: flex;
+}
+
+.message-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.message-container label {
+    display: flex;
+    left: 0;
+}
+
+.submit-container {
+    display: flex;
+}
+
+.submit-container {
+    display: flex;
+    width: 100%;
+}
+
+label {
+    color: #FCF5E5;
+}
+
+input, textarea {
+    /* background-color: #2C2D2D; */
+    border: 1px solid #FCF5E5;
+    border-radius: 5px;
+    padding: .7rem;
+    color: black;
+    margin: .5rem 0 1rem 0;
+    max-width: 100%;
+}
+
+button {
+    padding: .4rem 1rem .4rem 1rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    /* color: #2C2D2D; */
+    cursor: pointer;
+}

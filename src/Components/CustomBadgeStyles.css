@@ -1,0 +1,24 @@
+.badge-primary {
+    color: #ebeef0;
+    background-color: #9972B2;
+ }
+ 
+ .badge-secondary{
+    color: #ebeef0;
+    background-color: #E46864;
+ }
+ 
+ .badge-success {
+    color: #ebeef0;
+    background-color: #EB9558;
+ }
+ 
+ .badge-danger{
+    color: #ebeef0;
+    background-color: #F3D158;
+ }
+ 
+ .badge-warning {
+    color: #ebeef0;
+    background-color: #A9D663;
+ }

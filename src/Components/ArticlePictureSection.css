@@ -1,0 +1,88 @@
+.ArticlePictureSection {
+  width: 100%;
+  background-color: #405a4e;
+  height: 100vh;
+  padding: 1rem 2rem 1rem 2rem;
+  position: relative; 
+}
+
+.ArticlePictureSection::before {
+  content: "";
+  background-image: url('../Assets/forest.jpg');
+  opacity: 0.1; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.article-card{
+  height: 100%;
+  /* border: 1px solid yellow; */
+  width: 100%;
+}
+
+.carousel-items {
+  text-align: left; 
+  padding: 1rem; 
+  display: flex;
+  max-height: 32em;
+}
+
+.carousel-items-left {
+  width: 60%;
+  display: flex;
+  text-align: left;
+  /* border: 1px solid yellow;
+  background-color: green; */
+}
+
+.carousel-items-right {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  padding-left: 1.5rem;
+  text-align: left;
+  overflow: hidden;
+  /* background-color: green;
+  border: 1px solid pink; */
+}
+
+.carousel-items-right h2 {
+  color: antiquewhite;
+}
+
+.carousel-items-right p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.carousel-image {
+  width: 40em;
+  height: 30em;
+  aspect-ratio: 5/3.2;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  filter: brightness(1);
+  transition: filter .2s;
+}
+
+.carousel-image:hover {
+  filter: brightness(0.8);
+}
+
+.image-description {
+  margin-top: 10px; 
+  /* font-size: 16px;  */
+  color: #ffffff; 
+}
+
+.slick-dots li button:before{
+  color: #fff;
+}
+.slick-dots li.slick-active button:before{
+  color: white;
+}

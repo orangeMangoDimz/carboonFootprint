@@ -1,0 +1,108 @@
+/* Default styles for larger screens */
+.FuelContainer {
+    background-color: #8cb27f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    min-height: 300px;
+    /* margin: -35px 0 10px 10px; */
+    text-align: center;
+    color: white; 
+  }
+  .fuel-header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .fuel-form {
+    max-width: 300px;
+    margin: 0 auto; 
+  }
+  
+  .fuel-form h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center; 
+  }
+  
+  .fuel-form h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left; 
+  }
+  
+  .fuel-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: left; 
+  }
+  
+  .fuel-form input[type="number"] {
+    width: 89.5%;
+    padding: 4% 5% 4% 5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .fuel-form select {
+    width: 89.5%;
+    padding: 4% 5% 4% 5%;
+    /* appearance: none; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 10px;
+  }
+  
+  .fuel-form button {
+    background-color: #55725d;
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .fuel-form button:hover {
+    background-color: #405a4e; 
+  }
+  
+  .fuel-results {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #405A4E;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: #fff; 
+  }
+  
+  .fuel-results h3 {
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+  
+  .fuel-results p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+  }
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .FuelContainer {
+      margin: 20px auto; /* Center the container horizontally on smaller screens */
+    }
+  }
+  
